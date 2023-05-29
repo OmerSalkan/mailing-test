@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        @font-face {
+            font-family: 'Avenir-book';
+            src: url(fonts/Avenir-Book/AvenirBook.ttf);
+        }
+        @font-face {
+            font-family: 'Avenir-heavy';
+            src: url(fonts/Avenir-Heavy/AvenirHeavy.ttf);
+        }
+        @font-face {
+            font-family: 'Avenir-light';
+            src: url(fonts/Avenir-Light/AvenirLight.ttf);
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+          .newsletter{
+            width: 800px;
+            margin: 0 auto;
+            background-color: black;
+          }
+
+          .logo{
+            padding: 25px 0;
+          }
+          .text-under-header{
+            letter-spacing: 2px;
+            text-align: center;
+            padding-top: 25px;
+          }
+         .text-under-header img{
+            padding-top: 25px;
+            padding-bottom: 25px;
+            width: 40px;
+         }
+         .working-days{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+         }
+         .working-days img{
+            width: 100%;
+         }
+         .w-days-text{
+            flex: 0 0 35%;
+            padding-left: 25px;
+         }
+         .w-days-img{
+            flex: 0 0 50%;
+         }
+         .w-days-text h1{
+            padding-bottom: 10px;
+         }
+         .working-days hr{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #c3c3bf;
+         }
+         .w-days-text p{
+            padding-bottom: 5px;
+         }
+         .food{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 45px 25px;
+         }
+         .food img{
+            flex: 0 0 23%;
+            width: 180px;
+            height: auto;
+         }
+         .locations-img{
+            display: flex;
+            flex-wrap: wrap;
+         }
+         .locations-img-dubai{
+                flex: 0 0 50%;
+           
+              }
+              .locations-img-bahrain{
+                flex: 0 0 50%;
+            
+
+              }
+         .locations{
+            padding: 25px 25px;
+         }
+         .locations img{
+            padding-bottom: 15px;
+         }
+         .reserve-logo{
+            width: 200px;
+         }
+         .social-icons{
+            margin-top: 45px;
+            margin-left: -10px;
+         }
+         .social-icons a{
+          padding-right: 15px;
+          color: #cba689;
+          font-size: 15px;
+         }
+         .streets{
+            border-top: 1px solid #818283;
+            border-bottom: 1px solid #818283;
+            margin: 25px 25px;
+            padding: 25px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+            flex-wrap: wrap;
+
+         }
+         .streets h4{
+            color: white;
+            padding-bottom: 7px;
+            padding-top: 25px;
+         }
+         .streets p{
+            color: white;
+            font-weight: 300;
+            padding-bottom: 7px;
+         }
+        .streets-text-dubai{
+            flex: 0 0 40%;
+        }
+        .streets-text-bahrain{
+            flex: 0 0 40%;
+        }
+        .streets img{
+          flex: 0 0 5%;
+           height: 35px;
+           width: 35px;
+           
+        }
+        .bottom{
+          padding: 20px 25px;
+        }
+        @media (max-width: 410px) {
+
+
+            .streets-text-dubai{
+            flex: 0 0 100%;
+        }
+        .streets-text-bahrain{
+            flex: 0 0 1000%;
+        }
+        .streets img{
+          flex: 0 0 5%;
+            margin-top: 15px;
+           margin-bottom: 15px;
+         
+           
+        }
+
+
+            .w-days-text{
+            flex: 0 0 100%;
+            margin: 0 auto;
+            padding: 0;
+           
+         
+         }
+            .food img{
+            margin: 0 auto;
+              }
+
+        }
+
+        @media (max-width: 740px) {
+
+
+            .w-days-text{
+            flex: 0 0 80%;
+           text-align: center;
+           margin: 0 auto;
+           padding-bottom: 25px;
+         
+         }
+         .w-days-img{
+            flex: 0 0 70%;
+            margin: 0 auto;
+         }
+
+            .newsletter{
+            width: 100%;
+            margin: 0 auto;    
+              }
+
+            .text-under-header h1{
+                font-size: 15px;
+                margin: 7px;
+            }  
+
+            .food img{
+            flex: 0 0 50%;
+              }
+
+              .locations-img-dubai{
+                flex: 0 0 100%;
+                padding-bottom:30px ;
+              }
+              .locations-img-bahrain{
+                flex: 0 0 100%;
+                padding-bottom:30px ;
+
+              }
+           
+        }
+    </style>
+</head>
+<body style="background-color: #2a2a2e;">
+
+
+    <section class="newsletter">
+
+        <article class="logo" style="text-align: center;">
+            <img src="images/Logo-Clay-White.png" alt="">
+        </article>
+
+        <article class="header-img">
+            <img src="images/header_image.png" alt="" style="width: 100%;">
+        </article>
+
+
+        <article style="color: #c3c3bf;">
+            <div class="text-under-header">
+              <h1 style="padding-bottom: 5px;">Stimulate strategy, conduct creativity.</h1>
+              <h1 >Discover our new Business Lunch for the corporate explorer.</h1>
+              <img src="images/pat7.png" alt="" >
+            </div>
+          </article>
+          
+
+
+        <article class="working-days" style="color:#c3c3bf; letter-spacing: 2px;">
+            <div class="w-days-text">
+              <h1 style="color: white;">BUSINESS LUNCH</h1>
+              <p>3-course - AED139 per person</p>
+              <p>4-course - AED169 per person</p>
+              <hr >
+              <p>Starts <span style="color: white;"> Monday 8th May </span></p>
+              <p>Monday to Friday</p>
+              <p style="color: white;">12:00 - 16:00</p>
+            </div>
+            <div class="w-days-img">
+              <img src="images/350281878_1744508752672321_5430561784260541646_n.png" alt="" >
+            </div>
+          </article>
+
+          <article class="food" >
+            <img src="images/food1.png" alt="">
+            <img src="images/food2.png" alt="">
+            <img src="images/food3.png" alt="">
+            <img src="images/food4.png" alt="">
+          </article>
+
+          <article class="locations" >
+
+            <h3 style="color: #808084; text-align: center; padding-bottom: 15px;">D I S C O V E R</h3>
+
+            <h1 style="color:#c3c3bf; text-align: center; padding-bottom: 15px; letter-spacing: 3px;">EXPLORE OUR LOCATIONS</h1>
+
+            <div class="locations-img">
+
+                <div class="locations-img-dubai">
+                    <img src="images/dubai.png" alt="" style="width: 100%;">
+                    <p style="color: #eaeae6; letter-spacing: 3px;">Clay.Bluewaters Island.Dubai.UAE</p>
+                </div>
+
+                <div class="locations-img-bahrain">
+                    <img src="images/bahrain.png" alt="" style="width: 100%;">
+                    <p style="color: #eaeae6; letter-spacing: 3px;">05th floor.The Terminal Adliya.Bahrain</p>
+                </div>
+
+
+            </div>
+
+          </article>
+          
+
+          <article class="reserve" style="text-align: center;">
+
+                <img src="images/reserve.png" alt="" style="width: 100%; padding-top: 35px; padding-bottom: 25px;">
+
+                <img src="images/Logo-Clay-White.png" alt="" class="reserve-logo">
+
+                <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                </div>
+
+          </article>
+
+
+          <article class="streets">
+
+            <div class="streets-text-dubai" style="text-align: center;">
+                <span style="color: #808084; letter-spacing: 2PX;">CLAY DUBAI</span>
+                <h4>Clay . Bluewaters Island . Dubai . UAE</h4>
+                <p>reservations@claydubai.com</p>
+                <p>+971 04 422 5600</p>
+
+            </div>
+
+            <img src="images/footerredimg.png" alt="">
+
+            <div class="streets-text-bahrain" style="text-align: center;">
+                <span style="color: #808084; letter-spacing: 2PX;">CLAY BAHRAIN</span>
+                <h4>Clay . Bluewaters Island . Dubai . UAE</h4>
+                <p>reservations@claydubai.com</p>
+                <p>+971 04 422 5600</p>
+            </div>
+
+          </article>
+          
+
+          <article style="text-align: center; padding-bottom: 20px;">
+            <p style="color: #eaeae6; letter-spacing: 2px; padding-bottom: 20px;">A family-owned, family-run restaurant group</p>
+            <img src="images/FFI.png" alt="">
+
+
+          </article>
+
+          <article class="bottom" style="background-color: #eaeae6;" >
+            <img src="images/bottom.png" alt="" style="width: 100%;">
+          </article>
+
+    </section>
+
+
+
+
+    
+</body>
+</html>
